@@ -11,11 +11,19 @@
     font-size: 18px;
     color: black;
     background-color: lightblue;
+    display: inline;
+
+}
+ 
+.name {
+    font-size: 20px;
+    color: black;
 }
 
 .direction:hover {
     background-color: blue;
 }
+
 
 /* Characters-colors*/
 .OR {
@@ -33,6 +41,13 @@
 .CHORUS {
     color: #2ECC71; 
 }
+
+/* Hover for character names */
+.name:hover {
+    box-shadow: 5px 5px 15px rgba(255, 105, 180, 0.7); /* Hot pink shadow with blur */
+    border: 3px dashed #ff2f00; 
+}
+
 
 /* table styling */
 .cast-table {
