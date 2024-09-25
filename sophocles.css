@@ -33,3 +33,45 @@
 .CHORUS {
     color: #2ECC71; 
 }
+
+/* table styling */
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Table header */
+.cast-table thead {
+    background-color: lightcoral; /* Sky blue */
+    color: white;
+}
+
+.cast-table th, .cast-table td {
+    border: 1px solid #dddddd;
+    padding: 10px 15px;
+}
+
+/* Row striping */
+.cast-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+/* Padding and margin */
+.cast-table {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Text alignment for table cells */
+.cast-table th {
+    text-align: center;
+}
+
+.cast-table td {
+    text-align: center;
+}
